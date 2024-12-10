@@ -1,0 +1,40 @@
+.todo-single-div{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.todo-list-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.list-div{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.todo-single-div1 p{
+    font-size: 17px;
+    font-weight: bolder;
+    height: 25px;
+}
+.todo-single-div1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 50px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
